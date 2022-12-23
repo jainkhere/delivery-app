@@ -1,0 +1,25 @@
+#search-bar {
+  width: 300px;
+  box-shadow: none;
+  background-color: rgb(235, 235, 235);
+  font-size: 14px;
+  height: 30px;
+  padding-right: 26px;
+  padding-left: 10px;
+  -webkit-border-radius: 3px;
+  /* For Safari, etc. */
+  -moz-border-radius: 3px;
+  /*For Mozilla, etc.*/
+  border-radius: 35px;
+  /*CSS3 Feature*/
+}
+.search-bar-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.icon-search {
+  position: relative;
+  top: 3px;
+  left: -30px;
+}

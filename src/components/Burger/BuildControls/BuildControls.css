@@ -1,0 +1,49 @@
+.buildControls {
+  width: 100%;
+  background-color: #e7bba1;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: 0 2px 1px #ccc;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.orderButton {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: #fa4a0c;
+  color: white;
+  font-family: inherit;
+  font-size: 1.2em;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+  width: 314px;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.orderButton:disabled {
+  background-color: rgba(98, 29, 5, 0.3);
+  cursor: not-allowed;
+}
+
+.orderButton:not(:disabled) {
+  animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

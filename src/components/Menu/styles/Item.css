@@ -1,0 +1,56 @@
+.item-wrapper {
+  align-items: center;
+  margin: 5px 0;
+}
+.item-wrapper-row {
+  display: flex;
+  margin: auto;
+}
+.item-name {
+  padding: 10px;
+  flex: auto;
+  font-weight: 500;
+  width: 80px;
+}
+.item-price {
+  margin-left: 1.5rem;
+  font-weight: 400;
+}
+.item-remove-count-add {
+  /* margin-right: 1rem; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.item-add-remove {
+  font-size: 20px;
+  align-self: center;
+}
+.item-add-remove.btn-disabled {
+  background-color: rgba(98, 29, 5, 0.3);
+}
+.item-count {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: #fa4a0c;
+  color: white;
+  border: 0;
+  border-radius: 35px;
+  outline: 0;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.count {
+  align-self: center;
+  text-align: center;
+}
+
+.u-d-n {
+  display: none;
+}
